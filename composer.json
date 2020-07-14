@@ -1,0 +1,23 @@
+{
+    "name": "zhujinkui/notice",
+    "description": "This is a class library based on Beanstalk plug-in to send message of Wechat template.",
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "zhujinkui",
+            "email": "developer@zhujinkui.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.2.0",
+        "pda/pheanstalk": "3.2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "think\\": "src/"
+        }
+    }
+}
+
