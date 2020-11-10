@@ -63,6 +63,8 @@ $data = [
         'remark'   => '感谢你的使用！如果疑问，请在微信服务号中输入“人工客服”，将在第一时间为您服务！'
     ]
 ];
+
+// 实例
 $obj = new \think\Push();
 $sendStatus = $obj->TplNotice($data);
 
